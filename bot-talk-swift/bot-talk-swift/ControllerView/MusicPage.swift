@@ -72,13 +72,13 @@ class MusicPage: UIView {
   }
 }
 
-#Preview {
-  let view = MusicPage()
-  view.setupView()
-  view.albumLabel.text = "Demo Album"
-
-  view.player.trackInformationView.artistLabel.text = "Sample Artist"
-  view.player.trackInformationView.songNameLabel.text = "My Hitting"
-
-  return view
-}
+//#Preview {
+//  let view = MusicPage()
+//  view.setupView()
+//  view.albumLabel.text = "Demo Album"
+//
+//  view.player.trackInformationView.artistLabel.text = "Sample Artist"
+//  view.player.trackInformationView.songNameLabel.text = "My Hitting"
+//
+//  return view
+//}

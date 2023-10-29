@@ -8,6 +8,8 @@
 #import <Foundation/Foundation.h>
 #import "PrimeSeventy.h"
 
+@implementation PrimeSeventy
+
 NSDictionary *mockData = @{
     @"currentTrack": @{
         @"id": @123,
@@ -29,8 +31,6 @@ NSDictionary *mockData = @{
         }
     ]
 };
-
-@implementation PrimeSeventy
 
 -(NSDictionary*) findAlbumById: (NSNumber*) albumId {
     NSArray *albums = mockData[@"albums"];

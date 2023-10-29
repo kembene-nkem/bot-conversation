@@ -183,10 +183,10 @@ class PlayerView: UIView {
   
 }
 
-#Preview {
-  let control = PlayerView()
-  control.setupView()
-  control.trackInformationView.artistLabel.text = "Sample Artist"
-  control.trackInformationView.songNameLabel.text = "My Hitting"
-  return control
-}
+//#Preview {
+//  let control = PlayerView()
+//  control.setupView()
+//  control.trackInformationView.artistLabel.text = "Sample Artist"
+//  control.trackInformationView.songNameLabel.text = "My Hitting"
+//  return control
+//}

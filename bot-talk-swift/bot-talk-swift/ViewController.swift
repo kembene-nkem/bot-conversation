@@ -34,6 +34,7 @@ class ViewController: UIViewController {
   func setupView() {
     musicView.setupView()
     musicView.player.onChatRequested = {[weak self] (track, meta) in
+      // callback to be notified when a user taps on the chat button
       self?.didRequestChat(track: track, meta: meta)
     }
   }
@@ -46,11 +47,19 @@ class ViewController: UIViewController {
   }
 
   func didRequestChat(track: MusicTrack, meta: MusicTrackMetaInformation) {
-    guard let url = AppConfig.botURL else {
+    guard let url = AppConfig.botURL, let url = URL(string: url) else {
+      let alertController = UIAlertController()
+      alertController.title = "Bot URL"
+      alertController.message = "Bot URL not configured. Ensure you have setup an entry in env/env.xcconfig file"
+      alertController.modalPresentationStyle = .popover
+      alertController.addAction(UIAlertAction(title: "Dismiss", style: .cancel, handler: { action in
+        alertController.dismiss(animated: true)
+      }))
+      self.present(alertController, animated: true)
       return
     }
     let controller = BotChatViewController()
-    controller.urlString = url
+    controller.botURL = url
     controller.track = track
     controller.meta = meta
     controller.lastSelectedTopic = viewModel?.getLastSelectedTopic()

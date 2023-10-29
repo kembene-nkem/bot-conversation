@@ -24,7 +24,7 @@ class BotChatViewController: UIViewController {
     return button
   }()
 
-  var urlString: String?
+  var botURL: URL?
   var track: MusicTrack?
   var meta: MusicTrackMetaInformation?
   var lastSelectedTopic: String?
@@ -39,10 +39,14 @@ class BotChatViewController: UIViewController {
     layoutWebViewComponents()
 
     webView.navigationDelegate = self
-    webView.isInspectable = true
+    if #available(iOS 16.4, *) {
+      webView.isInspectable = true
+    } else {
+      // Fallback on earlier versions
+    }
 
     webView.configuration.userContentController.add(self, name: "botHandler")
-    if let urlStrong = urlString, let url = URL(string: urlStrong) {
+    if let url = botURL {
       let request = URLRequest(url: url)
       webView.load(request)
     }
@@ -150,6 +154,6 @@ extension BotChatViewController: WKScriptMessageHandler {
   }
 }
 
-#Preview {
-  return BotChatViewController()
-}
+//#Preview {
+//  return BotChatViewController()
+//}

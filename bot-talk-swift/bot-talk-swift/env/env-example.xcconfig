@@ -1,0 +1,10 @@
+//
+//  env-example.xcconfig
+//  bot-talk-swift
+//
+//  Created by Kembene Nkem on 10/29/23.
+//
+
+// Link to the chatbot application. Because the character sequence '//' is interpreted as a comment
+// ensure to escape it like so \/\/
+CHAT_BOT_HOST=https:\/\/chat.com

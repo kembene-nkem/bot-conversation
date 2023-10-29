@@ -1,0 +1,28 @@
+---
+const pageTitle = "";
+import '../Styles/global.scss'
+---
+
+<html lang="en">
+    <head>
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <title>{pageTitle}</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    </head>
+    <body class="bg-fuchsia-100">
+
+    <slot/>
+
+    <div id="page-loader" class="flex h-screen w-screen ">
+        <div class="grow">
+            <div class="loader"></div>
+        </div>
+    </div>
+    <script is:inline src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" type="module"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="../Scripts/clients/global.ts"></script>
+    <div style="position: fixed; bottom: 5px; right: 5px; left: 5px" id="alert-holder"></div>
+    </body>
+</html>

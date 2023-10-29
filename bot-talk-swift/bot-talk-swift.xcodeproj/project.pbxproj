@@ -1,0 +1,700 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B36F108B2AED7C7900B31CF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36F108A2AED7C7900B31CF0 /* AppDelegate.swift */; };
+		B36F108D2AED7C7900B31CF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36F108C2AED7C7900B31CF0 /* SceneDelegate.swift */; };
+		B36F108F2AED7C7900B31CF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36F108E2AED7C7900B31CF0 /* ViewController.swift */; };
+		B36F10922AED7C7900B31CF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36F10902AED7C7900B31CF0 /* Main.storyboard */; };
+		B36F10942AED7C7B00B31CF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B36F10932AED7C7B00B31CF0 /* Assets.xcassets */; };
+		B36F10972AED7C7B00B31CF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36F10952AED7C7B00B31CF0 /* LaunchScreen.storyboard */; };
+		B36F10A22AED7C7B00B31CF0 /* bot_talk_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36F10A12AED7C7B00B31CF0 /* bot_talk_swiftTests.swift */; };
+		B36F10AC2AED7C7B00B31CF0 /* bot_talk_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36F10AB2AED7C7B00B31CF0 /* bot_talk_swiftUITests.swift */; };
+		B36F10AE2AED7C7B00B31CF0 /* bot_talk_swiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36F10AD2AED7C7B00B31CF0 /* bot_talk_swiftUITestsLaunchTests.swift */; };
+		B3A1B7092AED90EE001F88C7 /* MusicPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A1B7082AED90EE001F88C7 /* MusicPage.swift */; };
+		B3A1B70B2AED94CA001F88C7 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A1B70A2AED94CA001F88C7 /* PlayerView.swift */; };
+		B3A1B70D2AEDB062001F88C7 /* PlayerControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A1B70C2AEDB062001F88C7 /* PlayerControlsView.swift */; };
+		B3A1B70F2AEDB150001F88C7 /* TrackInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A1B70E2AEDB150001F88C7 /* TrackInformationView.swift */; };
+		B3A1B7122AEDB797001F88C7 /* PrimeSeventy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A1B7112AEDB797001F88C7 /* PrimeSeventy.m */; };
+		B3A1B7162AEDBCB6001F88C7 /* MusicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A1B7152AEDBCB6001F88C7 /* MusicViewModel.swift */; };
+		B3A1B7182AEDBCCF001F88C7 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A1B7172AEDBCCF001F88C7 /* API.swift */; };
+		B3A1B71E2AEDCF7E001F88C7 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A1B71D2AEDCF7E001F88C7 /* Configuration.swift */; };
+		B3A1B7232AEDDAB6001F88C7 /* BotChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A1B7222AEDDAB6001F88C7 /* BotChatViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B36F109E2AED7C7B00B31CF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B36F107F2AED7C7900B31CF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B36F10862AED7C7900B31CF0;
+			remoteInfo = "bot-talk-swift";
+		};
+		B36F10A82AED7C7B00B31CF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B36F107F2AED7C7900B31CF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B36F10862AED7C7900B31CF0;
+			remoteInfo = "bot-talk-swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B36F10872AED7C7900B31CF0 /* bot-talk-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bot-talk-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36F108A2AED7C7900B31CF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B36F108C2AED7C7900B31CF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B36F108E2AED7C7900B31CF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B36F10912AED7C7900B31CF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B36F10932AED7C7B00B31CF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B36F10962AED7C7B00B31CF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B36F10982AED7C7B00B31CF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B36F109D2AED7C7B00B31CF0 /* bot-talk-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bot-talk-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36F10A12AED7C7B00B31CF0 /* bot_talk_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bot_talk_swiftTests.swift; sourceTree = "<group>"; };
+		B36F10A72AED7C7B00B31CF0 /* bot-talk-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bot-talk-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36F10AB2AED7C7B00B31CF0 /* bot_talk_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bot_talk_swiftUITests.swift; sourceTree = "<group>"; };
+		B36F10AD2AED7C7B00B31CF0 /* bot_talk_swiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bot_talk_swiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B3A1B7082AED90EE001F88C7 /* MusicPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPage.swift; sourceTree = "<group>"; };
+		B3A1B70A2AED94CA001F88C7 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		B3A1B70C2AEDB062001F88C7 /* PlayerControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControlsView.swift; sourceTree = "<group>"; };
+		B3A1B70E2AEDB150001F88C7 /* TrackInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackInformationView.swift; sourceTree = "<group>"; };
+		B3A1B7102AEDB797001F88C7 /* bot-talk-swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bot-talk-swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		B3A1B7112AEDB797001F88C7 /* PrimeSeventy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrimeSeventy.m; sourceTree = "<group>"; };
+		B3A1B7132AEDB87C001F88C7 /* PrimeSeventy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrimeSeventy.h; sourceTree = "<group>"; };
+		B3A1B7152AEDBCB6001F88C7 /* MusicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewModel.swift; sourceTree = "<group>"; };
+		B3A1B7172AEDBCCF001F88C7 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		B3A1B71B2AEDCD6B001F88C7 /* env-example.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "env-example.xcconfig"; sourceTree = "<group>"; };
+		B3A1B71C2AEDCF08001F88C7 /* env.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = env.xcconfig; sourceTree = "<group>"; };
+		B3A1B71D2AEDCF7E001F88C7 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		B3A1B7222AEDDAB6001F88C7 /* BotChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotChatViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B36F10842AED7C7900B31CF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36F109A2AED7C7B00B31CF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36F10A42AED7C7B00B31CF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B36F107E2AED7C7900B31CF0 = {
+			isa = PBXGroup;
+			children = (
+				B36F10892AED7C7900B31CF0 /* bot-talk-swift */,
+				B36F10A02AED7C7B00B31CF0 /* bot-talk-swiftTests */,
+				B36F10AA2AED7C7B00B31CF0 /* bot-talk-swiftUITests */,
+				B36F10882AED7C7900B31CF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B36F10882AED7C7900B31CF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B36F10872AED7C7900B31CF0 /* bot-talk-swift.app */,
+				B36F109D2AED7C7B00B31CF0 /* bot-talk-swiftTests.xctest */,
+				B36F10A72AED7C7B00B31CF0 /* bot-talk-swiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B36F10892AED7C7900B31CF0 /* bot-talk-swift */ = {
+			isa = PBXGroup;
+			children = (
+				B3A1B71A2AEDCD52001F88C7 /* env */,
+				B3A1B7142AEDBC9F001F88C7 /* ViewModel */,
+				B3A1B7072AED90DC001F88C7 /* ControllerView */,
+				B3A1B7062AED90CC001F88C7 /* Views */,
+				B36F108A2AED7C7900B31CF0 /* AppDelegate.swift */,
+				B36F108C2AED7C7900B31CF0 /* SceneDelegate.swift */,
+				B36F108E2AED7C7900B31CF0 /* ViewController.swift */,
+				B36F10902AED7C7900B31CF0 /* Main.storyboard */,
+				B36F10932AED7C7B00B31CF0 /* Assets.xcassets */,
+				B36F10952AED7C7B00B31CF0 /* LaunchScreen.storyboard */,
+				B36F10982AED7C7B00B31CF0 /* Info.plist */,
+				B3A1B7112AEDB797001F88C7 /* PrimeSeventy.m */,
+				B3A1B7102AEDB797001F88C7 /* bot-talk-swift-Bridging-Header.h */,
+				B3A1B7132AEDB87C001F88C7 /* PrimeSeventy.h */,
+				B3A1B7172AEDBCCF001F88C7 /* API.swift */,
+				B3A1B71D2AEDCF7E001F88C7 /* Configuration.swift */,
+				B3A1B7222AEDDAB6001F88C7 /* BotChatViewController.swift */,
+			);
+			path = "bot-talk-swift";
+			sourceTree = "<group>";
+		};
+		B36F10A02AED7C7B00B31CF0 /* bot-talk-swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				B36F10A12AED7C7B00B31CF0 /* bot_talk_swiftTests.swift */,
+			);
+			path = "bot-talk-swiftTests";
+			sourceTree = "<group>";
+		};
+		B36F10AA2AED7C7B00B31CF0 /* bot-talk-swiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B36F10AB2AED7C7B00B31CF0 /* bot_talk_swiftUITests.swift */,
+				B36F10AD2AED7C7B00B31CF0 /* bot_talk_swiftUITestsLaunchTests.swift */,
+			);
+			path = "bot-talk-swiftUITests";
+			sourceTree = "<group>";
+		};
+		B3A1B7062AED90CC001F88C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B3A1B70A2AED94CA001F88C7 /* PlayerView.swift */,
+				B3A1B70C2AEDB062001F88C7 /* PlayerControlsView.swift */,
+				B3A1B70E2AEDB150001F88C7 /* TrackInformationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B3A1B7072AED90DC001F88C7 /* ControllerView */ = {
+			isa = PBXGroup;
+			children = (
+				B3A1B7082AED90EE001F88C7 /* MusicPage.swift */,
+			);
+			path = ControllerView;
+			sourceTree = "<group>";
+		};
+		B3A1B7142AEDBC9F001F88C7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B3A1B7152AEDBCB6001F88C7 /* MusicViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B3A1B71A2AEDCD52001F88C7 /* env */ = {
+			isa = PBXGroup;
+			children = (
+				B3A1B71B2AEDCD6B001F88C7 /* env-example.xcconfig */,
+				B3A1B71C2AEDCF08001F88C7 /* env.xcconfig */,
+			);
+			path = env;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B36F10862AED7C7900B31CF0 /* bot-talk-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36F10B12AED7C7B00B31CF0 /* Build configuration list for PBXNativeTarget "bot-talk-swift" */;
+			buildPhases = (
+				B36F10832AED7C7900B31CF0 /* Sources */,
+				B36F10842AED7C7900B31CF0 /* Frameworks */,
+				B36F10852AED7C7900B31CF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bot-talk-swift";
+			productName = "bot-talk-swift";
+			productReference = B36F10872AED7C7900B31CF0 /* bot-talk-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B36F109C2AED7C7B00B31CF0 /* bot-talk-swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36F10B42AED7C7B00B31CF0 /* Build configuration list for PBXNativeTarget "bot-talk-swiftTests" */;
+			buildPhases = (
+				B36F10992AED7C7B00B31CF0 /* Sources */,
+				B36F109A2AED7C7B00B31CF0 /* Frameworks */,
+				B36F109B2AED7C7B00B31CF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B36F109F2AED7C7B00B31CF0 /* PBXTargetDependency */,
+			);
+			name = "bot-talk-swiftTests";
+			productName = "bot-talk-swiftTests";
+			productReference = B36F109D2AED7C7B00B31CF0 /* bot-talk-swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B36F10A62AED7C7B00B31CF0 /* bot-talk-swiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36F10B72AED7C7B00B31CF0 /* Build configuration list for PBXNativeTarget "bot-talk-swiftUITests" */;
+			buildPhases = (
+				B36F10A32AED7C7B00B31CF0 /* Sources */,
+				B36F10A42AED7C7B00B31CF0 /* Frameworks */,
+				B36F10A52AED7C7B00B31CF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B36F10A92AED7C7B00B31CF0 /* PBXTargetDependency */,
+			);
+			name = "bot-talk-swiftUITests";
+			productName = "bot-talk-swiftUITests";
+			productReference = B36F10A72AED7C7B00B31CF0 /* bot-talk-swiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B36F107F2AED7C7900B31CF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B36F10862AED7C7900B31CF0 = {
+						CreatedOnToolsVersion = 15.0.1;
+						LastSwiftMigration = 1500;
+					};
+					B36F109C2AED7C7B00B31CF0 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = B36F10862AED7C7900B31CF0;
+					};
+					B36F10A62AED7C7B00B31CF0 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = B36F10862AED7C7900B31CF0;
+					};
+				};
+			};
+			buildConfigurationList = B36F10822AED7C7900B31CF0 /* Build configuration list for PBXProject "bot-talk-swift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B36F107E2AED7C7900B31CF0;
+			productRefGroup = B36F10882AED7C7900B31CF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B36F10862AED7C7900B31CF0 /* bot-talk-swift */,
+				B36F109C2AED7C7B00B31CF0 /* bot-talk-swiftTests */,
+				B36F10A62AED7C7B00B31CF0 /* bot-talk-swiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B36F10852AED7C7900B31CF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36F10972AED7C7B00B31CF0 /* LaunchScreen.storyboard in Resources */,
+				B36F10942AED7C7B00B31CF0 /* Assets.xcassets in Resources */,
+				B36F10922AED7C7900B31CF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36F109B2AED7C7B00B31CF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36F10A52AED7C7B00B31CF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B36F10832AED7C7900B31CF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A1B70F2AEDB150001F88C7 /* TrackInformationView.swift in Sources */,
+				B3A1B7092AED90EE001F88C7 /* MusicPage.swift in Sources */,
+				B36F108F2AED7C7900B31CF0 /* ViewController.swift in Sources */,
+				B3A1B7162AEDBCB6001F88C7 /* MusicViewModel.swift in Sources */,
+				B3A1B7182AEDBCCF001F88C7 /* API.swift in Sources */,
+				B3A1B70D2AEDB062001F88C7 /* PlayerControlsView.swift in Sources */,
+				B3A1B7232AEDDAB6001F88C7 /* BotChatViewController.swift in Sources */,
+				B3A1B7122AEDB797001F88C7 /* PrimeSeventy.m in Sources */,
+				B36F108B2AED7C7900B31CF0 /* AppDelegate.swift in Sources */,
+				B36F108D2AED7C7900B31CF0 /* SceneDelegate.swift in Sources */,
+				B3A1B70B2AED94CA001F88C7 /* PlayerView.swift in Sources */,
+				B3A1B71E2AEDCF7E001F88C7 /* Configuration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36F10992AED7C7B00B31CF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36F10A22AED7C7B00B31CF0 /* bot_talk_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36F10A32AED7C7B00B31CF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36F10AE2AED7C7B00B31CF0 /* bot_talk_swiftUITestsLaunchTests.swift in Sources */,
+				B36F10AC2AED7C7B00B31CF0 /* bot_talk_swiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B36F109F2AED7C7B00B31CF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B36F10862AED7C7900B31CF0 /* bot-talk-swift */;
+			targetProxy = B36F109E2AED7C7B00B31CF0 /* PBXContainerItemProxy */;
+		};
+		B36F10A92AED7C7B00B31CF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B36F10862AED7C7900B31CF0 /* bot-talk-swift */;
+			targetProxy = B36F10A82AED7C7B00B31CF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B36F10902AED7C7900B31CF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B36F10912AED7C7900B31CF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B36F10952AED7C7B00B31CF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B36F10962AED7C7B00B31CF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B36F10AF2AED7C7B00B31CF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3A1B71C2AEDCF08001F88C7 /* env.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B36F10B02AED7C7B00B31CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3A1B71C2AEDCF08001F88C7 /* env.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B36F10B22AED7C7B00B31CF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3A1B71C2AEDCF08001F88C7 /* env.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RNT423S48T;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "bot-talk-swift/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kembene.bot-talk-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "bot-talk-swift/bot-talk-swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B36F10B32AED7C7B00B31CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3A1B71C2AEDCF08001F88C7 /* env.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RNT423S48T;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "bot-talk-swift/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kembene.bot-talk-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "bot-talk-swift/bot-talk-swift-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B36F10B52AED7C7B00B31CF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RNT423S48T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kembene.bot-talk-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bot-talk-swift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bot-talk-swift";
+			};
+			name = Debug;
+		};
+		B36F10B62AED7C7B00B31CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RNT423S48T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kembene.bot-talk-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bot-talk-swift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bot-talk-swift";
+			};
+			name = Release;
+		};
+		B36F10B82AED7C7B00B31CF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RNT423S48T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kembene.bot-talk-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "bot-talk-swift";
+			};
+			name = Debug;
+		};
+		B36F10B92AED7C7B00B31CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RNT423S48T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kembene.bot-talk-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "bot-talk-swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B36F10822AED7C7900B31CF0 /* Build configuration list for PBXProject "bot-talk-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36F10AF2AED7C7B00B31CF0 /* Debug */,
+				B36F10B02AED7C7B00B31CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B36F10B12AED7C7B00B31CF0 /* Build configuration list for PBXNativeTarget "bot-talk-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36F10B22AED7C7B00B31CF0 /* Debug */,
+				B36F10B32AED7C7B00B31CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B36F10B42AED7C7B00B31CF0 /* Build configuration list for PBXNativeTarget "bot-talk-swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36F10B52AED7C7B00B31CF0 /* Debug */,
+				B36F10B62AED7C7B00B31CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B36F10B72AED7C7B00B31CF0 /* Build configuration list for PBXNativeTarget "bot-talk-swiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36F10B82AED7C7B00B31CF0 /* Debug */,
+				B36F10B92AED7C7B00B31CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B36F107F2AED7C7900B31CF0 /* Project object */;
+}

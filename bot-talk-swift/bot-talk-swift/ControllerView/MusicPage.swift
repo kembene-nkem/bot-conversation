@@ -17,7 +17,7 @@ class MusicPage: UIView {
 
   lazy var albumImage: UIImageView = {
     let imageView = UIImageView()
-    imageView.image = UIImage(named: "banner")    
+    imageView.image = UIImage(named: "music-placeholder")
     return imageView
   }()
 
@@ -42,6 +42,7 @@ class MusicPage: UIView {
   func startPlaying(track: MusicTrack, meta: MusicTrackMetaInformation) {
     albumLabel.text = meta.album.albumName
     player.playTrack(track: track, meta: meta)
+    albumImage.image = UIImage(named: "banner")
   }
 
   func layoutComponents() {

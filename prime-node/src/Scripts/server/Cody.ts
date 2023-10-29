@@ -66,6 +66,6 @@ export default class Cody {
     }
 
     static newInstance(): Cody {
-        return new Cody(import.meta.env.CODY_API_KEY, import.meta.env.CODY_BASE_URL);
+        return new Cody(import.meta.env.CODY_API_KEY, import.meta.env.CODY_BASE_URL ?? "https://getcody.ai/api/v1");
     }
 }

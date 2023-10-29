@@ -14,11 +14,9 @@ export default function CodyNav(props: CodyNavProps) {
 
     const getTitle = () => {
         return <span>
-            <span className="text-gray-500" style={{fontSize: 12, fontWeight: "bold", height: 18}}>{props.selectedTopic?.name}</span>
-            <br/>
-            <span style={{fontSize: 18}}>Chat | {props.currentPlaylist.currentTrack}</span>
-            <br/>
-            <span className="text-gray-400" style={{fontSize: 10, fontWeight: "normal", height: 18}}>{props.selectedConversation?.name}</span>
+            <div className="text-gray-500" style={{fontSize: 12, fontWeight: "bold", height: 18}}>{props.selectedTopic?.name}</div>
+            <div style={{fontSize: 18}}>Chat | {props.currentPlaylist.currentTrack}</div>
+            <div className="text-gray-400" style={{fontSize: 10, fontWeight: "normal", height: 18}}>{props.selectedConversation?.name}</div>
         </span>
     }
 

@@ -1,0 +1,4 @@
+*.swift linguist-detectable=true
+*.ts linguist-detectable=true
+
+prime-node/** linguist-vendored
